@@ -1,0 +1,39 @@
+.div-centralizar {
+    position: absolute;
+    height: 100vh;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+}
+
+.logo-anegado {
+    align-self: center;
+
+}
+
+.button-anegado {
+    background-color: var(--principal);
+    color: #fff;
+    height: 45px;
+    font-size: 18px;
+    font-style: normal;
+    text-decoration: none;
+    padding: 14px 15px;
+    border: 1px solid var(--principal-hover);
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-anegado:hover {
+    background-color: var(--principal-hover);
+    border: 1px solid var(--principal);
+
+}
+
+.button-anegado:active {
+    transform: scale(0.95);
+}
